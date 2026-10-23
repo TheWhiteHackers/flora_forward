@@ -9,6 +9,20 @@ body {
   flex-direction: column;
   gap: 20px;
 }
+h2{
+    font-weight: 800;
+    color: #a13d63;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+p {
+    color: #a13d63;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+}
 #nav {
   width: 90%;
   background-color: #FFF;
@@ -26,6 +40,11 @@ body {
 #playlink{
     color: #a13d63 !important;
 }
+#nav p{
+    font-weight: 900;
+    padding: 0;;
+    color: #0a9396;
+}
 #gamespace{
     width: 90%;
     height: 500px;
@@ -35,16 +54,13 @@ body {
     justify-content: center;
     align-items: center; 
 }
-
 #container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 15px; 
-    background-color: darkblue;
     width: 90%;
     display: flex;
-    
 }
 #centerbox{
     display: flex;
@@ -54,35 +70,27 @@ body {
     flex-direction: column;
     width: 50%;
     height: 200px;
-    background-color: brown;
 }
 #leftimg{
     width: 200px;
-    background-color: pink;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-
+    align-content: flex-start;
+    border-radius: 20px;
+    height: 400px;
 }
 #rightimg{
     width: 200px;
-    background-color: pink;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-
-}
-#startplaying{
-    font-family: "Figtree", sans-serif;
-    font-weight: 700;
-    width: 200px;
-    padding: 20px;
-    border-color: none;
-    border-radius: 30px;
-    background-color: #a13d63;
-    color: white;
+    border-radius: 20px;
+    height: 400px;
 }

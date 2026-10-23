@@ -23,6 +23,11 @@ body {
     text-decoration: none;
     color: #26547c;
 }
+#nav p{
+    font-weight: 900;
+    padding: 0;;
+    color: #0a9396;
+}
 #homelink{
     color: #a13d63 !important;
 }
@@ -46,7 +51,7 @@ body {
     font-weight: 700;
     width: 200px;
     padding: 20px;
-    border-color: none;
+    border: none;
     border-radius: 30px;
     background-color: #a13d63;
     color: white;

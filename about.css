@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  background-color: #b8d3d1;
+  font-family: "Figtree", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+h2{
+    font-weight: 800;
+    color: #a13d63;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0;;
+}
+p {
+    color: #a13d63;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+#nav {
+  width: 90%;
+  background-color: #FFF;
+  border-radius: 20px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 30px;
+}
+#nav a{
+    text-decoration: none;
+    color: #26547c;
+}
+#aboutlink{
+    color: #a13d63 !important;
+}
+#nav p{
+    font-weight: 900;
+    padding: 0;;
+    color: #0a9396;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px; 
+    width: 90%;
+    display: flex;
+}
+#centerbox{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+#leftimg{
+    width: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-content: flex-start;
+    border-radius: 20px;
+    height: 450px;
+
+}
+#rightimg{
+    width: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 450px;
+
+}
