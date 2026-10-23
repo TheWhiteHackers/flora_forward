@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+}
+#boardcolor {
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+}
