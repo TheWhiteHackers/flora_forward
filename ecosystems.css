@@ -10,9 +10,11 @@ body {
   gap: 20px;
 }
 h1{
-    color: #a13d63;
+    color: #26547c;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 50px;
+    margin: 0px;
+    margin-top: 5px;
 }
 #nav {
   width: 90%;
@@ -172,7 +174,6 @@ h1{
     text-align: center;
 
 }
-
 #brownright2 {
     background-color: #a98467;
     width: 50%;

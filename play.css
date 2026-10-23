@@ -47,12 +47,13 @@ p {
 }
 #gamespace{
     width: 90%;
-    height: 500px;
+    height: 550px;
     background-color: white;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center; 
+    flex-direction: column;
 }
 #container{
     display: flex;
@@ -72,7 +73,7 @@ p {
     height: 200px;
 }
 #leftimg{
-    width: 200px;
+    width: 300px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -81,10 +82,10 @@ p {
     flex-direction: column;
     align-content: flex-start;
     border-radius: 20px;
-    height: 400px;
+    height: 500px;
 }
 #rightimg{
-    width: 200px;
+    width: 300px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -92,5 +93,5 @@ p {
     text-align: center;
     flex-direction: column;
     border-radius: 20px;
-    height: 400px;
+    height: 500px;
 }
