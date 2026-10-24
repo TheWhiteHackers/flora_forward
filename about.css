@@ -75,6 +75,11 @@ p {
     height: 450px;
 
 }
+#leftimg img{
+    width: 90%;
+    height: 95%;
+    border-radius: 20px;
+}
 #rightimg{
     width: 300px;
     background-color: white;
@@ -86,4 +91,9 @@ p {
     border-radius: 20px;
     height: 450px;
 
+}
+#rightimg img{
+    width: 90%;
+    height: 95%;
+    border-radius: 20px;
 }

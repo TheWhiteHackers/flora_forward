@@ -33,8 +33,17 @@ body {
 }
 #bigimg{
     width: 90%;
-    height: 400px;
+    height: 300px;
     background-color: white;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#bigimg img{
+    width: 97%;
+    height: 90%;
     border-radius: 20px;
 }
 #centerbox{
@@ -43,8 +52,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 35%;
     height: 200px;
+}
+#centerbox p{
+    font-weight: 600;
+    color: #26547c;
 }
 #startplaying{
     font-family: "Figtree", sans-serif;
@@ -55,4 +68,5 @@ body {
     border-radius: 30px;
     background-color: #a13d63;
     color: white;
+    margin-bottom: 30px;
 }

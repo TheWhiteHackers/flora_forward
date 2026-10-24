@@ -64,7 +64,7 @@ function update(){
         context.font = "18px sans-serif";
         context.fillText("Marsh", board.width / 2, 157);
         context.fillText("Coastal Woodlands", board.width / 2, 217);
-        context.fillText("Prarie", board.width / 2, 277);
+        context.fillText("Prairie", board.width / 2, 277);
 
         context.textAlign = "left";
         return;

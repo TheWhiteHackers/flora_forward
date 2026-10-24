@@ -1,4 +1,4 @@
-# Flora Forward
+# Snake Spot
 Learn more about Louisiana's ecosystems and take a quiz about actions you can take to help our environment!
 
 Here is the design for the home page I've created on Canva

@@ -70,7 +70,7 @@ p {
     align-items: center;
     flex-direction: column;
     width: 50%;
-    height: 200px;
+    height: 430px;
 }
 #leftimg{
     width: 300px;
@@ -82,8 +82,14 @@ p {
     flex-direction: column;
     align-content: flex-start;
     border-radius: 20px;
-    height: 500px;
+    height: 550px;
 }
+#leftimg img{
+    border-radius: 20px;
+    width: 90%;
+    height: 95%;
+}
+
 #rightimg{
     width: 300px;
     background-color: white;
@@ -93,5 +99,11 @@ p {
     text-align: center;
     flex-direction: column;
     border-radius: 20px;
-    height: 500px;
+    height: 550px;
+}
+
+#rightimg img{
+    border-radius: 20px;
+    width: 90%;
+    height: 95%;
 }
