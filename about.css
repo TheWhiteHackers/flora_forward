@@ -24,6 +24,10 @@ p {
     border-radius: 10px;
     font-weight: 700;
 }
+#centerbox p{
+    width: 90%;
+}
+
 #nav {
   width: 90%;
   background-color: #FFF;
